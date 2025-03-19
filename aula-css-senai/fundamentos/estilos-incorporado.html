@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo incorporado</title>
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+        }
+
+        body{
+            background: #eee;
+        }
+
+        header{
+            background: #CCC;
+            margin: 10px 20px 5px 25px ; /* topo, direito, baixo, esquerda */
+        }
+
+        main{
+            background: #aaa;
+            padding: 20px 10px; /* topo,baixo, esquerda direita */
+        }
+
+        footer{
+            background: #333;
+            color: #fff;
+        }
+        article{
+            background: #aaa;
+        }
+
+       p{
+            color: #f00;
+        }
+
+        #primeiro-paragrafo{
+            color: #0ff;
+        }
+        .paragrafo-padrao-classe{
+            color: #FF0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Titulo principal</h1>
+        <main>
+            <h2>Titulo secundario</h2>
+            <p id="primeiro-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum rerum ex iste laudantium debitis beatae voluptatum quibusdam aliquid odit. Quae pariatur ullam quia voluptas sint nostrum, quasi laudantium molestiae vitae.</p>
+            <section>
+      
+                <article>
+                    <p class="pagrafo-padrao-classe">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, tenetur unde dolorem quas architecto provident nam consectetur soluta nostrum quis! Omnis sequi illo quas facilis tenetur, maxime recusandae ratione eligendi?
+                    </p>
+                    <p class="paragrafo-padrao-classe">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, tenetur unde dolorem quas architecto provident nam consectetur soluta nostrum quis! Omnis sequi illo quas facilis tenetur, maxime recusandae ratione eligendi?
+                    </p>
+                    <p class="paragrafo-padrao-classe">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, tenetur unde dolorem quas architecto provident nam consectetur soluta nostrum quis! Omnis sequi illo quas facilis tenetur, maxime recusandae ratione eligendi?
+                    </p>
+                </article>
+            </section>
+        </main>
+    </header>
+   
+        <footer>
+            <address>&reg; &copy; Todos os direitos reservados </address>
+        </footer>
+   
+    
+</body>
+</html>
